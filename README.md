@@ -1,6 +1,6 @@
 # Statistical-Modeling-in-Earth-Sciences-in-R
 ## Exercise 1
-## Statistical Analysis and Data Processing in R
+### Statistical Analysis and Data Processing in R
 
 This repository showcases various statistical and data analysis exercises in R, including:
 
