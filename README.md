@@ -21,3 +21,14 @@ This section of the project focuses on analyzing earthquake data in the Fiji reg
 - **Linear Regression Analysis:** Built a linear regression model to study the relationship between earthquake magnitude and station count, visualized with a regression line.
 - **Model Evaluation:** Evaluated the linear regression model using key metrics such as Residual Sum of Squares (RSS), Residual Standard Error (RSE), Proximity Coefficient (φ²), and Coefficient of Determination (R²).
 
+## Exercise 3
+### Creating Statistical Models
+
+- **Data Preparation for Statistical Modeling**  
+  This section includes loading the `airquality` dataset, identifying missing values, creating a cleaned dataset by removing rows with missing data, and inspecting the structure of the cleaned dataset to ensure readiness for statistical analysis.
+
+- **Ozone Levels Analysis by Wind Speed**  
+  Visualizes ozone levels with a boxplot excluding outliers, calculates average ozone levels for different wind speeds using both the `mosaic` package and the `aggregate()` function, and displays results as a line chart with points showing averages.
+
+- **Linear Regression Models by Month**  
+  Creates linear regression models for each month where ozone levels predict temperature (converted to Celsius). Calculates and stores regression coefficients (intercept and slope) and the coefficient of determination (R²) for each model in a summarized data frame.
