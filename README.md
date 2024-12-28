@@ -32,3 +32,12 @@ This section of the project focuses on analyzing earthquake data in the Fiji reg
 
 - **Linear Regression Models by Month**  
   Creates linear regression models for each month where ozone levels predict temperature (converted to Celsius). Calculates and stores regression coefficients (intercept and slope) and the coefficient of determination (R²) for each model in a summarized data frame.
+
+## Exercise 4
+### Polynomial Regression Models
+
+- **Linear Regression Model:** A simple linear regression model is built to predict parameter Y based on parameter X. Model evaluation includes calculating the Mean Squared Error (MSE), Root Mean Squared Error (RMSE), regression coefficients (intercept and slope), and the coefficient of determination (R²). The results demonstrate the model's goodness of fit, with visualizations of the regression line over the data.
+
+- **Polynomial Regression Models:** Polynomial regression models of degrees 2 to 10 are fitted to the data. The polynomial curves are visualized alongside the measured data points to assess the models' fit. 
+
+- **Model Metrics Comparison:** For each polynomial degree, regression coefficients, Residual Sum of Squares (RSS), and the coefficient of determination (R²) are calculated and compared. The results are summarized in a table to evaluate the performance of different polynomial models and to identify the most suitable degree for the given dataset.
