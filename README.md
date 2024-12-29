@@ -51,7 +51,7 @@ This task analyzes air pollution data to build a multiple linear regression mode
 - **Linear Regression Model**: A linear regression model is created to evaluate the influence of SO2, NO2, CO, and O3 on air temperature. The model coefficients, Residual Sum of Squares (RSS), Residual Standard Error (RSE), and R-squared (R²) values are calculated to assess the model's fit.
 - **Temperature Prediction**: The model predicts air temperature based on hypothetical pollutant concentrations, resulting in a temperature of **16.53°C**.
 
-# Exercise 6
+## Exercise 6
 ### Variable Selection and Correlation Analysis for Rainfall Prediction
 This task focuses on refining the dataset for predictive modeling of average annual rainfall by filtering variables with a correlation coefficient |r| ≥ 0.5 relative to the target variable (MEAN.ANNUAL.RAINFALL). Variables meeting the threshold are selected for further analysis. A pairwise scatter plot matrix is then generated using the ggpairs() function to visually explore relationships among the selected variables, providing insights into potential predictors for the regression model.
 
