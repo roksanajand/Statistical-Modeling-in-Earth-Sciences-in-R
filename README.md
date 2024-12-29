@@ -73,4 +73,18 @@ A multiple linear regression model was constructed using `ALTITUDE`, `MAX.RAINFA
 An RMSE comparison was visualized for all models across training and testing sets. The multiple regression model performed the best, achieving the lowest RMSE values in both training and testing datasets.
 
 
+## Exercise 8
+ Stepwise Selection and Model Evaluation for Annual Rainfall Prediction
+
+### Description:
+This task involves building and evaluating regression models for predicting mean annual rainfall using stepwise selection methods. The following steps are performed:
+
+1. **Nonlinear Models**:  
+   Models are created to predict mean annual rainfall using features derived from altitude and maximum rainfall. Polynomial transformations (logarithm and squared terms) of these features are used to capture non-linear relationships. The RMSE (Root Mean Square Error) is calculated to assess the model fit for both the training and test datasets.
+
+2. **Forward Selection**:  
+   The forward selection method is applied using the `step()` function with the AIC (Akaike Information Criterion) as the selection criterion. A baseline model is created, and additional variables (ALTITUDE, MAX.RAINFALL, MEAN.CLOUD.COVER, and MEAN.ANNUAL.AIR.TEMP) are added iteratively. The model's summary, including the coefficients and AIC values, is displayed, and the final model is evaluated for RMSE on both training and test datasets.
+
+3. **Backward Selection**:  
+   Backward selection is applied to reduce the model by removing variables with the least significant impact on the dependent variable (mean annual rainfall). The AIC is used again for model selection, and the final model is tested for accuracy using the RMSE metric on the test dataset.
 
