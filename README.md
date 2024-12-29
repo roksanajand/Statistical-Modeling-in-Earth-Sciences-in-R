@@ -55,7 +55,22 @@ This task analyzes air pollution data to build a multiple linear regression mode
 ### Variable Selection and Correlation Analysis for Rainfall Prediction
 This task focuses on refining the dataset for predictive modeling of average annual rainfall by filtering variables with a correlation coefficient |r| ≥ 0.5 relative to the target variable (MEAN.ANNUAL.RAINFALL). Variables meeting the threshold are selected for further analysis. A pairwise scatter plot matrix is then generated using the ggpairs() function to visually explore relationships among the selected variables, providing insights into potential predictors for the regression model.
 
+## Exercise 7
 
+### Baseline Model for Annual Rainfall Prediction
+A baseline model was created to predict mean annual rainfall without any explanatory variables. It predicts the same average value for all observations. The Root Mean Square Error (RMSE) for the training set was calculated as 237.87, and for the testing set as 216.24.
+
+### Linear Regression Model Using Correlation
+A linear regression model was created using the variable with the highest Pearson correlation (approximately 0.76) relative to mean annual rainfall. The RMSE for this model was 154.72 on the training set and 289.46 on the testing set.
+
+### Linear Regression Model Using Maximum Rainfall
+A linear regression model was built using `MAX.RAINFALL` as the explanatory variable. The RMSE for this model was 112.22 on the training set and 133.90 on the testing set.
+
+### Multiple Linear Regression Model
+A multiple linear regression model was constructed using `ALTITUDE`, `MAX.RAINFALL`, and `MEAN.ANNUAL.AIR.TEMP` as explanatory variables. The R² value was 0.795, indicating that 79.5% of the variance in mean annual rainfall was explained by the model. The RMSE for this model was 107.61 on the training set and 130.76 on the testing set.
+
+## RMSE Comparison Across Models
+An RMSE comparison was visualized for all models across training and testing sets. The multiple regression model performed the best, achieving the lowest RMSE values in both training and testing datasets.
 
 
 
