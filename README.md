@@ -41,3 +41,12 @@ This section of the project focuses on analyzing earthquake data in the Fiji reg
 - **Polynomial Regression Models:** Polynomial regression models of degrees 2 to 10 are fitted to the data. The polynomial curves are visualized alongside the measured data points to assess the models' fit. 
 
 - **Model Metrics Comparison:** For each polynomial degree, regression coefficients, Residual Sum of Squares (RSS), and the coefficient of determination (R²) are calculated and compared. The results are summarized in a table to evaluate the performance of different polynomial models and to identify the most suitable degree for the given dataset.
+
+## Exercise 5
+### Multiple Linear Regression for Air Temperature Prediction
+
+This task analyzes air pollution data to build a multiple linear regression model predicting air temperature (TEMP) using atmospheric aerosol concentrations. The steps include:
+
+- **Data Preparation**: Missing rows are removed, and only relevant variables (SO2, NO2, CO, O3, and TEMP) are retained. Highly correlated variables (PM2.5 and PM10) are excluded based on the correlation matrix.
+- **Linear Regression Model**: A linear regression model is created to evaluate the influence of SO2, NO2, CO, and O3 on air temperature. The model coefficients, Residual Sum of Squares (RSS), Residual Standard Error (RSE), and R-squared (R²) values are calculated to assess the model's fit.
+- **Temperature Prediction**: The model predicts air temperature based on hypothetical pollutant concentrations, resulting in a temperature of **16.53°C**.
