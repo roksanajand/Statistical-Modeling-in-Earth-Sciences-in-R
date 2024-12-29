@@ -69,7 +69,7 @@ A linear regression model was built using `MAX.RAINFALL` as the explanatory vari
 ### Multiple Linear Regression Model
 A multiple linear regression model was constructed using `ALTITUDE`, `MAX.RAINFALL`, and `MEAN.ANNUAL.AIR.TEMP` as explanatory variables. The R² value was 0.795, indicating that 79.5% of the variance in mean annual rainfall was explained by the model. The RMSE for this model was 107.61 on the training set and 130.76 on the testing set.
 
-## RMSE Comparison Across Models
+### RMSE Comparison Across Models
 An RMSE comparison was visualized for all models across training and testing sets. The multiple regression model performed the best, achieving the lowest RMSE values in both training and testing datasets.
 
 
